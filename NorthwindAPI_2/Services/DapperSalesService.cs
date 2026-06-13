@@ -98,6 +98,11 @@ namespace NorthwindAPI_2.Services
             };
         }
 
+        //public async Task<FinalPerfomanceReport> GetPerformanceReportSP(int year, string categoryName)
+        //{
+
+        //}
+
 
         public async Task<string> EmployeeMakeOrder(EmployeePlaceOrderRequest request)
         {
